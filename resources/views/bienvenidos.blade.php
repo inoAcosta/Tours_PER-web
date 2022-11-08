@@ -46,50 +46,54 @@
             </div>
             <div class="col-4 d-flex justify-content-end align-items-center">
                 <a class="link-secondary" href="#" aria-label="Search">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24">
+                <title>Search</title>
+                </svg>
+
                 </a>
-                <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+                <img src="https://cdn-icons-png.flaticon.com/128/284/284495.png" alt="">
             </div>
             </div>
         </header>
 
         <header>
-            <div class="px-3 py-2 bg-white text-black">
-            <div class="container">
+            <div class="px-3 py-2 bg-primary blog-header-logo text-white"">
+            <div class="container1">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                     <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
                 </a>
+                <img src="https://cdn-icons-png.flaticon.com/128/3388/3388856.png" width="50px" height="50px" row flex-nowrap justify-content-flex align-items-flex  alt="#">
 
                 <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                     <li>
-                    <a href="#" class="nav-link text-secondary">
-                        <svg class="bi d-block mx-auto mb-1 " width="24" height="24"><use xlink:href="#home"/></svg>
-                        Home
+                    <a href="#" class="nav-link text-black">
+                        <svg class="bi d-block mx-auto mb-1 " width="24" height="28"><use xlink:href="#home"/></svg>
+                        INICIO
                     </a>
                     </li>
                     <li>
                     <a href="#" class="nav-link text-black">
-                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"/></svg>
-                        Dashboard
+                        <svg class="bi d-block mx-auto mb-1" width="24" height="28"><use xlink:href="#speedometer2"/></svg>
+                        SITIOS
                     </a>
                     </li>
                     <li>
                     <a href="#" class="nav-link text-black">
-                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
-                        Orders
+                        <svg class="bi d-block mx-auto mb-1" width="24" height="28"><use xlink:href="#table"/></svg>
+                        VIAJES
                     </a>
                     </li>
                     <li>
                     <a href="#" class="nav-link text-black">
-                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
-                        Products
+                        <svg class="bi d-block mx-auto mb-1" width="24" height="28"><use xlink:href="#grid"/></svg>
+                        COSTO
                     </a>
                     </li>
                     <li>
                     <a href="#" class="nav-link text-black">
-                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
-                        Customers
+                        <svg class="bi d-block mx-auto mb-1" width="24" height="28"><use xlink:href="#people-circle"/></svg>
+                        CLIENTES
                     </a>
                     </li>
                 </ul>
@@ -103,16 +107,18 @@
                 </form>
 
                 <div class="text-end">
-                <button type="button" class="btn btn-light text-dark me-2">Login</button>
-                <button type="button" class="btn btn-primary">Sign-up</button>
+                <button type="button" class="btn btn-light text-dark me-2">INICIO</button>
+                <button type="button" class="btn btn-primary">REGISTRARSE</button>
                 </div>
             </div>
             </div>
+            
         </header>
+        
         
 
         <main class="container">
-        <div class="p-4 p-md-5 mb-4 text-black rounded bg-white">
+        <div class="p-4 p-md-5 mb-4 text-black rounded bg-secondary">
             <div class="col-md-6 px-0">
             <h1 class="display-4 fst-italic">Bienvenidos a Huánuco, disfruta de nuestros mejores zonas turisticas </h1>
             <p class="lead my-3">Huánuco es considerada una de las ciudades con el mejor clima del mundo!!!.... ven y disfruta
@@ -186,7 +192,124 @@
             </div>
         </div>
 
-       
+        <div class="row g-5">
+            <div class="col-md-8">
+            <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                From the Firehose
+            </h3>
+            <article class="blog-post">
+                <h2 class="blog-post-title">Another blog post</h2>
+                <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+
+                <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                <blockquote>
+                <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
+                </blockquote>
+                <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                <h3>Example table</h3>
+                <p>And don't forget about tables in these posts:</p>
+                <table class="table">
+                <thead>
+                    <tr>
+                    <th>Name</th>
+                    <th>Upvotes</th>
+                    <th>Downvotes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>Alice</td>
+                    <td>10</td>
+                    <td>11</td>
+                    </tr>
+                    <tr>
+                    <td>Bob</td>
+                    <td>4</td>
+                    <td>3</td>
+                    </tr>
+                    <tr>
+                    <td>Charlie</td>
+                    <td>7</td>
+                    <td>9</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                    <td>Totals</td>
+                    <td>21</td>
+                    <td>23</td>
+                    </tr>
+                </tfoot>
+                </table>
+
+                <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+            </article>
+
+            <article class="blog-post">
+                <h2 class="blog-post-title">New feature</h2>
+                <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+
+                <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+                <ul>
+                <li>First list item</li>
+                <li>Second list item with a longer description</li>
+                <li>Third list item to close it out</li>
+                </ul>
+                <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
+            </article>
+
+            <nav class="blog-pagination" aria-label="Pagination">
+                <a class="btn btn-outline-primary" href="#">Older</a>
+                <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+            </nav>
+
+            </div>
+
+            <div class="col-md-4">
+            <div class="position-sticky" style="top: 2rem;">
+                <div class="p-4 mb-3 bg-light rounded">
+                <h4 class="fst-italic">About</h4>
+                <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+                </div>
+
+                <div class="p-4">
+                <h4 class="fst-italic">Archives</h4>
+                <ol class="list-unstyled mb-0">
+                    <li><a href="#">March 2021</a></li>
+                    <li><a href="#">February 2021</a></li>
+                    <li><a href="#">January 2021</a></li>
+                    <li><a href="#">December 2020</a></li>
+                    <li><a href="#">November 2020</a></li>
+                    <li><a href="#">October 2020</a></li>
+                    <li><a href="#">September 2020</a></li>
+                    <li><a href="#">August 2020</a></li>
+                    <li><a href="#">July 2020</a></li>
+                    <li><a href="#">June 2020</a></li>
+                    <li><a href="#">May 2020</a></li>
+                    <li><a href="#">April 2020</a></li>
+                </ol>
+                </div>
+
+                <div class="p-4">
+                <h4 class="fst-italic">Elsewhere</h4>
+                <ol class="list-unstyled">
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ol>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        </main>
+        
+        <footer class="blog-footer">
+            <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            <p>
+                <a href="#">Back to top</a>
+            </p>
+        </footer>
     </body>
 
     
