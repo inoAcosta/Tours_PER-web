@@ -16,6 +16,8 @@
         <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
         <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
         <link rel="stylesheet" href="css/">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <meta name="theme-color" content="#7952b3">
 
         <!-- Styles -->
@@ -63,7 +65,6 @@
                 <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                     <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
                 </a>
-                <img src="https://cdn-icons-png.flaticon.com/128/3388/3388856.png" width="50px" height="50px" row flex-nowrap justify-content-flex align-items-flex  alt="#">
 
                 <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                     <li>
@@ -126,144 +127,422 @@
             <p class="lead mb-0"><a href="#" class="text-black fw-bold">Continue reading...</a></p>
             </div>
         </div>
+        <section id="feature_slider" class="lol">
+        <!-- 
+            Each slide is composed by <img> and .info
+            - .info's position is customized with css in index.css
+            - each <img> parallax effect is declared by the following params inside its class:
+            
+            example: class="asset left-472 sp600 t120 z3"
+            left-472 means left: -472px from the center
+            sp600 is speed transition
+            t120 is top to 120px
+            z3 is z-index to 3
+            Note: Maintain this order of params
 
-        <div class="row mb-2">
-            <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-primary">World</strong>
-                <h3 class="mb-0">Featured post</h3>
-                <div class="mb-1 text-muted">Nov 12</div>
-                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="stretched-link">Continue reading</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            For the backgrounds, you can combine from the bgs folder :D
+        -->
+        <article class="slide2" id="showcasing" style="background: url('img/backgrounds/huayllay-Ban.jpg') repeat-x top center;"> 
+        </article>
+        <article class="slide2" id="ideas" style="background: url('img/backgrounds/garu_Bg.jpg') repeat-x top center;">
 
-                </div>
-            </div>
-            </div>
-            <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-success">Design</strong>
-                <h3 class="mb-0">Post title</h3>
-                <div class="mb-1 text-muted">Nov 11</div>
-                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="stretched-link">Continue reading</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        </article>
+        <article class="slide2" id="tour" style="background: url('img/backgrounds/bella-durmiente_Bg.jpg') repeat-x top center;">
 
+        </article>
+        <article class="slide2" id="responsive" style="background: url('img/backgrounds/negritos-huanuco_Bg.jpg') repeat-x top center;">
+
+        </article>        
+    </section>
+
+
+
+
+
+
+
+
+
+        <style>
+                * {
+                    font-family: "Verdana", sans-serif;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                    letter-spacing: 0px;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    scroll-behavior: smooth;
+                    margin: 0;
+                    color: #fff;
+                }
+
+                body {
+                    margin: 2rem;
+                    background-color: #6dc2f7;
+                }
+
+
+                .carrosel {
+                    -webkit-perspective: 250px;
+                    -moz-perspective: 250px;
+                    width: 400px;
+                    height: 200px;
+                    top: 50px;
+                    position: relative;
+                    margin: 0 auto;
+                }
+
+                @-webkit-keyframes efeitoCarrosel {
+                    from {
+                        -webkit-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+                        -moz-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+                        z-index: 10;
+                        opacity: 1
+                    }
+
+                    50% {
+                        z-index: -10;
+                    }
+
+                    to {
+                        -webkit-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+                        -moz-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+                        z-index: 10;
+                        opacity: 1
+                    }
+                }
+
+                @-moz-keyframes efeitoCarrosel {
+                    from {
+                        -moz-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+                        z-index: 10;
+                        opacity: 1
+                    }
+
+                    50% {
+                        z-index: -10;
+                    }
+
+                    to {
+                        -moz-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+                        z-index: 10;
+                        opacity: 1
+                    }
+                }
+
+                .caixa__card {
+                    width: 90px;
+                    height: 100px;
+                    background-color: #442222;
+                    position: absolute;
+                    display: flex;
+                    font-weight: bold;
+                    justify-content: center;
+                    align-items: center;
+                    top: 35px;
+                    left: 125px;
+                    font-size: 9px;
+                    border-radius: 8px;
+                    box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+                    text-align: center;
+                    -webkit-animation-name: efeitoCarrosel;
+                    -moz-animation-name: efeitoCarrosel;
+                    -webkit-animation-duration: 8s;
+                    -moz-animation-duration: 8s;
+                    -webkit-animation-iteration-count: infinite;
+                    -moz-animation-iteration-count: infinite;
+                    -webkit-animation-timing-function: linear;
+                    -moz-animation-timing-function: linear;
+                }
+
+                .caixa__card:hover {
+                    border: solid #4466cc 3px;
+                    box-shadow: 0px 0px 10px #4466cc;
+                }
+
+                .caixa__card.cc__1 {
+                    background: linear-gradient(-229deg, #0093E9, #80D0C7);
+                    -webkit-animation-delay: -7s;
+                    -moz-animation-delay: -7s;
+                }
+
+                .caixa__card.cc__2 {
+
+                    background: linear-gradient(-229deg, #00DBDE, #FC00FF);
+                    -webkit-animation-delay: -6s;
+                    -moz-animation-delay: -6s;
+                }
+
+                .caixa__card.cc__3 {
+
+                    background: linear-gradient(-229deg, #50d990, #d4d054);
+                    -webkit-animation-delay: -5s;
+                    -moz-animation-delay: -5s;
+                }
+
+                .caixa__card.cc__4 {
+                    background: linear-gradient(-229deg, #cf91ff, #5782F5);
+                    -webkit-animation-delay: -4s;
+                    -moz-animation-delay: -4s;
+                }
+
+                .caixa__card.cc__5 {
+                    background: linear-gradient(-229deg, #642B73, #C6426E);
+                    -webkit-animation-delay: -3s;
+                    -moz-animation-delay: -3s;
+                }
+
+                .caixa__card.cc__6 {
+                    background: linear-gradient(-229deg, #D9AFD9, #97D9E1);
+                    -webkit-animation-delay: -2s;
+                    -moz-animation-delay: -2s;
+                }
+
+                .caixa__card.cc__7 {
+                    background: linear-gradient(-229deg, #FBAB7E, #F7CE68);
+                    -webkit-animation-delay: -1s;
+                    -moz-animation-delay: -1s;
+                }
+
+                .caixa__card.cc__8 {
+                    background: linear-gradient(-229deg, #1472ff, #A8EB12);
+                }
+            </style>
+
+            
+            <div class="conteudo">
+                <div class="carrosel">
+                    <div class="caixa__card cc__1">VIAJES</div>
+                    <div class="caixa__card cc__2">AVENTURAS</div>
+                    <div class="caixa__card cc__3">RUTAS</div>
+                    <div class="caixa__card cc__4">COMIDAS</div>
+                    <div class="caixa__card cc__5">HISTORIAS</div>
+                    <div class="caixa__card cc__6">COSTUMBRES</div>
+                    <div class="caixa__card cc__7">FOTOS</div>
+                    <div class="caixa__card cc__8">
+                        <img src="https://cdn-icons-png.flaticon.com/128/826/826070.png" width="40px">
+                    </div>
                 </div>
             </div>
-            </div>
+
         </div>
-        <div class="row mb-2">
-            <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-primary">World</strong>
-                <h3 class="mb-0">Featured post</h3>
-                <div class="mb-1 text-muted">Nov 12</div>
-                <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="stretched-link">Continue reading</a>
+
+
+    <div class="showcase bgShowcase">
+        <div class="container bgBlanco">
+            <div class="section_header">
+                <h3>Excursiones Turisticas</h3>
+            </div> 
+            <!-- Post Row -->
+            
+            
+            <div id="blog">
+                <div class="">
+        
+                    <!-- Post Row -->
+                    <div class="row post_row">
+                        
+                        <!-- Post -->
+                        <div class="col-sm-4">
+                            <div class="post">
+                                <div class="img">
+                                    <a href="huanuco-senorial.php">
+                                        <img src="http://www.toursterranova.com/img/destinos/huanuco-senorial.jpg" alt="huanuco-senorial" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h3><a class="textDestino" href="huanuco-senorial.php">Hu&aacute;nuco Se&ntilde;orial</a></h3>
+                                    
+                                    <p><span>DESDE:</span> S/. 39.00</p>
+                                    <p><span>Horario de Salida:</span> 09:30am hasta 02:00pm <br/> 02:30pm hasta 07:00pm</p>
+                                </div>
+                                
+                                <a class="plus_wrapper" href="huanuco-senorial.php">
+                                    <span>&#43;</span>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <!-- Post -->
+                        <div class="col-sm-4">
+                            <div class="post">
+                                <div class="img">
+                                    <a href="tingo-maria-encantador.php">
+                                        <img src="http://www.toursterranova.com/img/destinos/selva-magica/tingo-maria-encantador/tingo-encantador.jpg" alt="Tingo María Encantador" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h3><a class="textDestino" href="tingo-maria-encantador.php">Tingo Mar&iacute;a Encantador</a></h3>
+                                    
+                                    <p><span>DESDE:</span> S/. 85.00</p>
+                                    <p><span>Horario de Salida:</span><br/> 06:30am hasta 08:30pm</p>
+                                </div>
+                                
+                                <a class="plus_wrapper" href="tingo-maria-encantador.php">
+                                    <span>&#43;</span>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <!-- Post -->
+                        <div class="col-sm-4">
+                            <div class="post">
+                                <div class="img">
+                                    <a href="Huayllay">
+                                        <img src="http://www.toursterranova.com/img/destinos/huayllay/bosque-piedra-huayllay.jpg" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h3><a class="textDestino" href="bosque-de-piedra-de-huayllay.php">Bosque de Piedras - Huayllay</a></h3>
+                                    
+                                    <p><span>DESDE:</span> S/. 69.00</p>
+                                    <p><span>Horario de Salida:</span><br/> 06:30am hasta 07:30pm</p>
+                                </div>
+                                
+                                <a class="plus_wrapper" href="bosque-de-piedra-de-huayllay.php">
+                                    <span>&#43;</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                   </div>   
+                    <div class="row post_row">
+                    <!-- Post -->
+                        <div class="col-sm-4">
+                            <div class="post">
+                                <div class="img">
+                                    <a href="tours-quivilla.php">
+                                        <img width="300" height="300"  src="http://www.toursterranova.com/img/destinos/quivilla/quivilla8.jpg" alt="huanuco-senorial" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h3><a class="textDestino" href="tours_quivilla.php">Tours de Aventura Quivilla</a></h3>
+                                    
+                                    <p><span>DESDE:</span> S/. 89.00</p>
+                                    <p><span>Horario de Salida:</span> 06:00am hasta 08:30pm <br/></p>
+                                </div>
+                                
+                                <a class="plus_wrapper" href="huanuco-senorial.php">
+                                    <span>&#43;</span>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <!-- Post -->
+                        <div class="col-sm-4">
+                            <div class="post">
+                                <div class="img">
+                                   <iframe width="300" height="300" src="https://www.youtube.com/embed/WZksKWIUCUs" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+        
+                        <!-- Post -->
+                        <div class="col-sm-4">
+                            <div class="post">
+                                <div class="img">
+                                    <a href="sierra-huanuco.php">
+                                        <img src="http://www.toursterranova.com/img/destinos/sierra-huanuco/tantamayo.jpg" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h3><a class="textDestino" href="sierra-huanuco.php">Huánuco Arqueología y Aventura</a></h3>
+                                    
+                                    <p><span>DESDE:</span> S/. 549.00</p>
+                                    <p><span>Hora de Salida:</span><br/> 06:00am</p>
+                                    <p><span>Hora de Llegada:</span><br/> 08:00pm</p>
+                                </div>
+                                
+                                <a class="plus_wrapper" href="bosque-de-piedra-de-huayllay.php">
+                                    <span>&#43;</span>
+                                </a>
+                            </div>
+                        </div>
+              
+              
+              
+                    </div>
+        			<div class="section_header">
+                        <h3>Paquetes Destacados</h3>
+                    </div> 
+                    <!-- Post Row -->
+                    <div class="row post_row">
+                        <!-- Post -->
+                        <div class="col-sm-4">
+                            <div class="post">
+                                <div class="img">
+                                    <a href="playas-de-ensueno.php">
+                                        <img src="http://www.toursterranova.com/img/destinos/playas-de-ensueno.jpg" alt="playas-de-ensueño" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h3><a class="textDestino" href="playas-de-ensueno.php">Playas de Ensue&ntildeo</a></h3>
+                                    
+                                    <p><span>DESDE:</span> S/. 00.00</p>
+                                    <p><span>Duraci&oacute;n:</span></p>
+                                    <p>4 D&iacute;as / 3 Noches</p>
+                                </div>
+                                
+                                <a class="plus_wrapper" href="playas-de-ensueno.php">
+                                    <span>&#43;</span>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <!-- Post -->
+                        <div class="col-sm-4">
+                            <div class="post">
+                                <div class="img">
+                                    <a href="cuzco-maravilloso.php">
+                                        <img src="http://www.toursterranova.com/img/destinos/cusco-magico.jpg" alt="cusco mágico" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h3><a class="textDestino" href="cuzco-maravilloso.php">Cuzco Maravilloso</a></h3>
+                                    
+                                    <p><span>DESDE:</span> S/. 00.00</p>
+                                    <p><span>Duraci&oacute;n:</span></p>
+                                    <p>2 D&iacute;as / 1 Noche</p>
+                                </div>
+                                
+                                <a class="plus_wrapper" href="cuzco-maravilloso.php">
+                                    <span>&#43;</span>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <!-- Post -->
+                        <div class="col-sm-4">
+                            <div class="post">
+                                <div class="img">
+                                    <a href="de-la-selva-central-su-magia.php">
+                                        <img src="http://www.toursterranova.com/img/destinos/selva-central.jpg" alt="selva-central" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h3><a class="textDestino" href="de-la-selva-central-su-magia.php">De la Selva Central su Magia</a></h3>
+                                    
+                                    <p><span>DESDE:</span> S/. 00.00</p>
+                                    <p><span>Duraci&oacute;n:</span></p>
+                                    <p>5 D&iacute;as / 4 Noches</p>
+                                </div>
+                                
+                                <a class="plus_wrapper" href="de-la-selva-central-su-magia.php">
+                                    <span>&#43;</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
                 </div>
-                <div class="col-auto d-none d-lg-block">
-                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                
+    		</div>
 
-                </div>
-            </div>
-            </div>
-            <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-success">Design</strong>
-                <h3 class="mb-0">Post title</h3>
-                <div class="mb-1 text-muted">Nov 11</div>
-                <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="stretched-link">Continue reading</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
 
-                </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="row g-5">
-            <div class="col-md-8">
-            <h3 class="pb-4 mb-4 fst-italic border-bottom">
-                From the Firehose
-            </h3>
-            <article class="blog-post">
-                <h2 class="blog-post-title">Another blog post</h2>
-                <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
-
-                <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                <blockquote>
-                <p>Longer quote goes here, maybe with some <strong>emphasized text</strong> in the middle of it.</p>
-                </blockquote>
-                <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                <h3>Example table</h3>
-                <p>And don't forget about tables in these posts:</p>
-                <table class="table">
-                <thead>
-                    <tr>
-                    <th>Name</th>
-                    <th>Upvotes</th>
-                    <th>Downvotes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <td>Alice</td>
-                    <td>10</td>
-                    <td>11</td>
-                    </tr>
-                    <tr>
-                    <td>Bob</td>
-                    <td>4</td>
-                    <td>3</td>
-                    </tr>
-                    <tr>
-                    <td>Charlie</td>
-                    <td>7</td>
-                    <td>9</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                    <td>Totals</td>
-                    <td>21</td>
-                    <td>23</td>
-                    </tr>
-                </tfoot>
-                </table>
-
-                <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
-            </article>
-
-            <article class="blog-post">
-                <h2 class="blog-post-title">New feature</h2>
-                <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
-
-                <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
-                <ul>
-                <li>First list item</li>
-                <li>Second list item with a longer description</li>
-                <li>Third list item to close it out</li>
-                </ul>
-                <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
-            </article>
-
-            <nav class="blog-pagination" aria-label="Pagination">
-                <a class="btn btn-outline-primary" href="#">Older</a>
-                <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
-            </nav>
-
-            </div>
+        
 
             <div class="col-md-4">
             <div class="position-sticky" style="top: 2rem;">
@@ -309,6 +588,21 @@
             <p>
                 <a href="#">Back to top</a>
             </p>
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
         </footer>
     </body>
 
