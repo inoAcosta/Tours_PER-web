@@ -59,7 +59,7 @@
         </header>
 
         <header>
-            <div class="px-3 py-2 bg-primary blog-header-logo text-white"">
+            <div class="px-3 py-2 bg-primary blog-header-logo text-white">
             <div class="container1">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
@@ -116,17 +116,7 @@
             
         </header>
         
-        
-
-        <main class="container">
-        <div class="p-4 p-md-5 mb-4 text-black rounded bg-secondary">
-            <div class="col-md-6 px-0">
-            <h1 class="display-4 fst-italic">Bienvenidos a Huánuco, disfruta de nuestros mejores zonas turisticas </h1>
-            <p class="lead my-3">Huánuco es considerada una de las ciudades con el mejor clima del mundo!!!.... ven y disfruta
-                 con nosotros conozca su historia y sus contumbres, tradiciones que son únicos de este maravilloso ciudad</p>
-            <p class="lead mb-0"><a href="#" class="text-black fw-bold">Continue reading...</a></p>
-            </div>
-        </div>
+    
        
 
         <style>
@@ -389,7 +379,8 @@
                                     <h3><a class="textDestino" href="huanuco-senorial.php">Hu&aacute;nuco Se&ntilde;orial</a></h3>
                                     
                                     <p><span>DESDE:</span> S/. 39.00</p>
-                                    <p><span>Horario de Salida:</span> 09:30am hasta 02:00pm <br/> 02:30pm hasta 07:00pm</p>
+                                    <p><span>Horario de Salida:</span>
+                                    </br> 09:30am hasta 02:00pm </p>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="huanuco-senorial.php">
@@ -410,7 +401,8 @@
                                     <h3><a class="textDestino" href="tingo-maria-encantador.php">Tingo Mar&iacute;a Encantador</a></h3>
                                     
                                     <p><span>DESDE:</span> S/. 85.00</p>
-                                    <p><span>Horario de Salida:</span><br/> 06:30am hasta 08:30pm</p>
+                                    <p><span>Horario de Salida:</span>
+                                    <br/> 06:30am hasta 08:30pm</p>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="tingo-maria-encantador.php">
@@ -431,7 +423,8 @@
                                     <h3><a class="textDestino" href="bosque-de-piedra-de-huayllay.php">Bosque de Piedras - Huayllay</a></h3>
                                     
                                     <p><span>DESDE:</span> S/. 69.00</p>
-                                    <p><span>Horario de Salida:</span><br/> 06:30am hasta 07:30pm</p>
+                                    <p><span>Horario de Salida:</span>
+                                    <br/> 06:30am hasta 07:30pm</p>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="bosque-de-piedra-de-huayllay.php">
@@ -454,7 +447,7 @@
                                     <h3><a class="textDestino" href="tours_quivilla.php">Tours de Aventura Quivilla</a></h3>
                                     
                                     <p><span>DESDE:</span> S/. 89.00</p>
-                                    <p><span>Horario de Salida:</span> 06:00am hasta 08:30pm <br/></p>
+                                    <p><span>Horario de Salida:</span>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="huanuco-senorial.php">
@@ -575,29 +568,127 @@
                 </div>
                 
     		</div>
-
-
-        
-
-            <div class="col-md-4">
-
-                <div class="p-4">
-                    <h4 class="fst-italic">Elsewhere</h4>
-                    <ol class="list-unstyled">
-                        <li><a href="https://cdn-icons-png.flaticon.com/128/5968/5968866.png">GitHub</a></li>
-                        <li><a href="https://t4.ftcdn.net/jpg/00/79/91/09/240_F_79910944_STIMMytsLr4md1UddAUgf7pWF0m1pjv8.jpg">Twitter</a></li>
-                        <li><a href="https://cdn-icons-png.flaticon.com/128/5968/5968764.png">Facebook</a></li>
-                    </ol>
-                </div>
-            </div>
-            </div>
+ 
         </div>
 
         </main>
         
-        <footer>
-           
+        <footer class="px-3 py-2 bg-primary blog-header-logo text-white">
+            <div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
+            <div class="small-dialog-header">
+                <h3>REGISTRARSE</h3>
+            </div>
+            <form>
+                <div class="sign-in-wrapper">
+                    <a href="#0" class="social_bt facebook">Iniciar conh Facebook</a>
+                    <a href="#0" class="social_bt google">Iniciar con Google</a>
+                    <div class="divider"><span>o</span></div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" name="email" id="email">
+                        <i class="icon_mail_alt"></i>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" name="password" id="password" value="">
+                        <i class="icon_lock_alt"></i>
+                    </div>
+                    <div class="clearfix add_bottom_15">
+                        <div class="checkboxes float-left">
+                            <input id="remember-me" type="checkbox" name="check">
+                            <label for="remember-me">Recordar</label>
+                        </div>
+                        <div class="float-right"><a id="forgot" href="javascript:void(0);">Olvide mi contraseña?</a></div>
+                    </div>
+                    <div class="text-center"><input type="submit" value="INGRESAR" class="btn_login text-black"></div>
+                    <div class="text-center">
+                        No tengo una cuenta, registrarse? <a href="javascript:void(0);">Ingresar</a>
+                    </div>
+                    <div id="forgot_pw">
+                        <div class="form-group">
+                            <label>Por favor confirme su direccion de Email</label>
+                            <input type="email" class="form-control" name="email_forgot" id="email_forgot">
+                            <i class="icon_mail_alt"></i>
+                        </div>
+                        <p>Ingresa en tu correo y realiza la confirmación</p>
+                        <div class="text-center"><input type="submit" value="REINICIAR CONTRASEÑA" class="btn_1 text-black"></div>
+                    </div>
+                </div>
+            </form>
+            <!--form -->
+
+            <script src="//code.tidio.co/bgrk6yhylbyd5bcvkcchzfhinx9g4iqq.js" async></script>
+
+            <!-- Start of HubSpot Embed Code -->
+            <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9478954.js"></script>
+            <!-- End of HubSpot Embed Code -->	
+            <!-- Common scripts -->
+            <script src="js/jquery-3.5.1.min.js"></script>
+            <script src="js/common_scripts_min.js"></script>
+            <script src="js/functions.js"></script>
+            
+            <!-- Video header scripts -->
+            <script src="js/modernizr.js"></script>
+            <script src="js/video_header.js"></script>
+            <script>
+                $(document).ready(function() {
+
+                    HeaderVideo.init({
+                        container: $('.header-video'),
+                        header: $('.header-video--media'),
+                        videoTrigger: $("#video-trigger"),
+                        autoPlayVideo: false
+                    });
+
+                });
+            </script>
+
+            <!-- Form banner -->
+            <script>
+                $('input.date-pick').datepicker('setDate', 'today');
+                $('input.time-pick').timepicker({
+                    minuteStep: 15,
+                    showInpunts: false
+                })
+            </script>
+            
+            <script src="js/jquery.ddslick.js"></script>
+            <script>
+                $("select.ddslick").each(function() {
+                    $(this).ddslick({
+                        showSelectedHTML: true
+                    });
+                });
+            </script>
+            
+            <!-- Check box and radio style iCheck -->
+            <script>
+                $('input').iCheck({
+                checkboxClass: 'icheckbox_square-blue',
+                radioClass: 'iradio_square-blue'
+                });
+            </script>
+
         </footer>
+        </div><!-- End row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="social_footer">
+                        
+                        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                            <li><a href="https://www.facebook.com/TingoMariaNunashTours" target="_blank">  <img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png"></a></li>
+                            <li><a href="https://www.instagram.com/nunashtours/?hl=es-la" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"></a></li>
+                            <li><a href="https://twitter.com/ToursTingo" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/733/733579.png"></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCvRnFmrLkszAHNdF245FgXw" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/3670/3670147.png"></a></li>
+                        </ul>
+                        <p>©Tours PERÚ 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
     </body>
 
     
