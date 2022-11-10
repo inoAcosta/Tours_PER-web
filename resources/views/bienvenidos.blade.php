@@ -287,7 +287,7 @@
         </div>
 
 
-    <div class="showcase bgShowcase">
+    <div class="showcase bgShowcase" padding: 200px;>
         <div class="container bgBlanco">
             <div class="section_header">
                 <h3 class="text-black ">EXCURSIONES TURISTICAS TOURS PERÚ, DESDE PERÚ PARA EL MUNDO!!</h3>
@@ -448,8 +448,9 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="tours_quivilla.php">Tours de Aventura Quivilla</a></h3>
                                     
-                                    <p class="text-black "><span>DESDE:</span> S/. 89.00</p>
-                                    <p class="text-black "><span>Horario de Salida:</span>
+                                    <p class="text-black "><span>DESDE:</span> S/. 549.00</p>
+                                    <p class="text-black "><span>Hora de Salida:</span><br/> 06:00am</p>
+                                    <p class="text-black "><span>Hora de Llegada:</span><br/> 08:00pm</p>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="huanuco-senorial.php">
@@ -474,7 +475,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="sierra-huanuco.php">
-                                        <img src="http://www.toursterranova.com/img/destinos/sierra-huanuco/tantamayo.jpg" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
+                                        <img width="300" height="300" src="http://www.toursterranova.com/img/destinos/sierra-huanuco/tantamayo.jpg" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
