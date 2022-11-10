@@ -312,8 +312,8 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="huanuco-senorial.php">Huánuco Sensorial</a></h3>
                                     
-                                    <p><span class="text-black">DESDE:</span> S/. 39.00</p>
-                                    <p><span class="text-black">Horario de Salida:</span><br/>02:30pm hasta 07:00pm</p>
+                                    <p class="text-black "><span>DESDE:</span> S/. 39.00</p>
+                                    <p class="text-black "><span>Horario de Salida:</span><br/>02:30pm hasta 07:00pm</p>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="huanuco-senorial.php">
@@ -333,8 +333,8 @@
                                 <div class="text-black">
                                     <h3><a class="textDestino" href="tingo-maria-encantador.php">Tingo Mar&iacute;a Encantador</a></h3>
                                     
-                                    <p><span>DESDE:</span> S/. 85.00</p>
-                                    <p><span>Horario de Salida:</span><br/> 06:30am hasta 08:30pm</p>
+                                    <p class="text-black "><span>DESDE:</span> S/. 85.00</p>
+                                    <p class="text-black "><span>Horario de Salida:</span><br/> 06:30am hasta 08:30pm</p>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="tingo-maria-encantador.php">
@@ -354,8 +354,8 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="bosque-de-piedra-de-huayllay.php">Bosque de Piedras - Huayllay</a></h3>
                                     
-                                    <p><span>DESDE:</span> S/. 69.00</p>
-                                    <p><span>Horario de Salida:</span><br/> 06:30am hasta 07:30pm</p>
+                                    <p class="text-black "><span>DESDE:</span> S/. 69.00</p>
+                                    <p class="text-black "><span>Horario de Salida:</span><br/> 06:30am hasta 07:30pm</p>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="bosque-de-piedra-de-huayllay.php">
@@ -380,8 +380,8 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="huanuco-senorial.php">Hu&aacute;nuco Se&ntilde;orial</a></h3>
                                     
-                                    <p><span>DESDE:</span> S/. 39.00</p>
-                                    <p><span>Horario de Salida:</span>
+                                    <p class="text-black "><span>DESDE:</span> S/. 39.00</p>
+                                    <p class="text-black "><span>Horario de Salida:</span>
                                     </br> 09:30am hasta 02:00pm </p>
                                 </div>
                                 
@@ -402,8 +402,8 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="tingo-maria-encantador.php">Tingo Mar&iacute;a Encantador</a></h3>
                                     
-                                    <p><span>DESDE:</span> S/. 85.00</p>
-                                    <p><span>Horario de Salida:</span>
+                                    <p class="text-black "><span>DESDE:</span> S/. 85.00</p>
+                                    <p class="text-black "><span>Horario de Salida:</span>
                                     <br/> 06:30am hasta 08:30pm</p>
                                 </div>
                                 
@@ -424,8 +424,8 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="bosque-de-piedra-de-huayllay.php">Bosque de Piedras - Huayllay</a></h3>
                                     
-                                    <p><span>DESDE:</span> S/. 69.00</p>
-                                    <p><span>Horario de Salida:</span>
+                                    <p class="text-black "><span>DESDE:</span> S/. 69.00</p>
+                                    <p class="text-black "><span>Horario de Salida:</span>
                                     <br/> 06:30am hasta 07:30pm</p>
                                 </div>
                                 
@@ -448,8 +448,8 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="tours_quivilla.php">Tours de Aventura Quivilla</a></h3>
                                     
-                                    <p><span>DESDE:</span> S/. 89.00</p>
-                                    <p><span>Horario de Salida:</span>
+                                    <p class="text-black "><span>DESDE:</span> S/. 89.00</p>
+                                    <p class="text-black "><span>Horario de Salida:</span>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="huanuco-senorial.php">
@@ -480,9 +480,9 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="sierra-huanuco.php">Huánuco Arqueología y Aventura</a></h3>
                                     
-                                    <p><span>DESDE:</span> S/. 549.00</p>
-                                    <p><span>Hora de Salida:</span><br/> 06:00am</p>
-                                    <p><span>Hora de Llegada:</span><br/> 08:00pm</p>
+                                    <p class="text-black "><span>DESDE:</span> S/. 549.00</p>
+                                    <p class="text-black "><span>Hora de Salida:</span><br/> 06:00am</p>
+                                    <p class="text-black "><span>Hora de Llegada:</span><br/> 08:00pm</p>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="bosque-de-piedra-de-huayllay.php">
@@ -510,9 +510,9 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="playas-de-ensueno.php">Playas de Ensue&ntildeo</a></h3>
                                     
-                                    <p><span>DESDE:</span> S/. 00.00</p>
-                                    <p><span>Duraci&oacute;n:</span></p>
-                                    <p>4 D&iacute;as / 3 Noches</p>
+                                    <p class="text-black "><span>DESDE:</span> S/. 00.00</p>
+                                    <p class="text-black "><span>Duraci&oacute;n:</span></p>
+                                    <p class="text-black ">4 D&iacute;as / 3 Noches</p>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="playas-de-ensueno.php">
@@ -532,9 +532,9 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="cuzco-maravilloso.php">Cuzco Maravilloso</a></h3>
 
-                                    <p><span>DESDE:</span> S/. 00.00</p>
-                                    <p><span>Duraci&oacute;n:</span></p>
-                                    <p>2 D&iacute;as / 1 Noche</p>
+                                    <p class="text-black "><span>DESDE:</span> S/. 00.00</p>
+                                    <p class="text-black "><span>Duraci&oacute;n:</span></p>
+                                    <p class="text-black ">2 D&iacute;as / 1 Noche</p>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="cuzco-maravilloso.php">
@@ -554,9 +554,9 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="de-la-selva-central-su-magia.php">De la Selva Central su Magia</a></h3>
                                     
-                                    <p><span>DESDE:</span> S/. 00.00</p>
-                                    <p><span>Duraci&oacute;n:</span></p>
-                                    <p>5 D&iacute;as / 4 Noches</p>
+                                    <p class="text-black "><span>DESDE:</span> S/. 00.00</p>
+                                    <p class="text-black "><span>Duraci&oacute;n:</span></p>
+                                    <p class="text-black ">5 D&iacute;as / 4 Noches</p>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="de-la-selva-central-su-magia.php">
@@ -678,10 +678,10 @@
                     <div id="social_footer">
                         
                         <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                            <li><a href="https://www.facebook.com/TingoMariaNunashTours" target="_blank">  <img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png"></a></li>
-                            <li><a href="https://www.instagram.com/nunashtours/?hl=es-la" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"></a></li>
-                            <li><a href="https://twitter.com/ToursTingo" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/733/733579.png"></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCvRnFmrLkszAHNdF245FgXw" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/3670/3670147.png"></a></li>
+                            <li><a href="" target="_blank">  <img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png"></a></li>
+                            <li><a href="" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"></a></li>
+                            <li><a href="" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/733/733579.png"></a></li>
+                            <li><a href="" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/3670/3670147.png"></a></li>
                         </ul>
                         <p>©Tours PERÚ 2023</p>
                     </div>
