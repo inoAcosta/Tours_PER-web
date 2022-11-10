@@ -8,7 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
         <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
         <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
@@ -17,7 +18,8 @@
         <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
         <link rel="stylesheet" href="css/">
         <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <meta name="theme-color" content="#7952b3">
 
         <!-- Styles -->
@@ -38,61 +40,63 @@
     <body>
         
         <div class="container">
-        <header class="blog-header py-3">
-            <div class="row flex-nowrap justify-content-between align-items-center">
-            <div class="col-4 pt-1">
-                <img src="https://cdn-icons-png.flaticon.com/128/2200/2200326.png" alt="">
-            </div>
-            <div class="col-4 text-center">
-                <a class="display-4 fst-italic blog-header-logo text-black" href="#">TOURS PERÚ</a>
-            </div>
-            <div class="col-4 d-flex justify-content-end align-items-center">
-                <a class="link-secondary" href="#" aria-label="Search">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24">
-                <title>Search</title>
-                </svg>
+            <header class="blog-header py-3">
+                <div class="row flex-nowrap justify-content-between align-items-center">
+                    <div class="col-4 d-flex justify-content-end align-items-center">
+                        
+                        <img src="https://cdn-icons-png.flaticon.com/128/2200/2200326.png" alt="">
+                        <img src="https://cdn-icons-png.flaticon.com/128/2387/2387521.png" alt="">
+                        <img src="https://cdn-icons-png.flaticon.com/128/3070/3070848.png" alt="">
+                        
+                        
+                    </div>
+                    <div class="col-4 text-center">
+                        <a class="display-4 fst-italic blog-header-logo" href="#">TOURS PERÚ</a>
+                    </div>
+                    <div class="col-4 d-flex justify-content-end align-items-center">
 
-                </a>
-                <img src="https://cdn-icons-png.flaticon.com/128/284/284495.png" alt="">
-            </div>
-            </div>
-        </header>
+                        <img src="https://cdn-icons-png.flaticon.com/128/854/854894.png" alt="">
+                        <img src="https://cdn-icons-png.flaticon.com/128/744/744502.png" alt="">
+                        <img src="https://cdn-icons-png.flaticon.com/128/284/284495.png" alt="">
 
-        <header>
-            <div class="px-3 py-2 bg-primary blog-header-logo text-white">
+                    </div>
+                </div>
+            </header>
+
+            <div class="px-3 py-2 bg-dark blog-header-logo ">
             <div class="container1">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
                     <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
                 </a>
 
-                <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0">
                     <li>
-                    <a href="#" class="nav-link text-black">
-                        <svg class="bi d-block mx-auto mb-1 " width="24" height="28"><use xlink:href="#home"/></svg>
+                    <a href="#" class="nav-link">
+                        <svg class="bi d-block mx-auto mb-1 text-black " width="24" height="28"><use xlink:href="#home"/></svg>
                         INICIO
                     </a>
                     </li>
                     <li>
-                    <a href="#" class="nav-link text-black">
+                    <a href="#" class="nav-link">
                         <svg class="bi d-block mx-auto mb-1" width="24" height="28"><use xlink:href="#speedometer2"/></svg>
                         SITIOS
                     </a>
                     </li>
                     <li>
-                    <a href="#" class="nav-link text-black">
+                    <a href="#" class="nav-link ">
                         <svg class="bi d-block mx-auto mb-1" width="24" height="28"><use xlink:href="#table"/></svg>
                         VIAJES
                     </a>
                     </li>
                     <li>
-                    <a href="#" class="nav-link text-black">
+                    <a href="#" class="nav-link ">
                         <svg class="bi d-block mx-auto mb-1" width="24" height="28"><use xlink:href="#grid"/></svg>
                         COSTO
                     </a>
                     </li>
                     <li>
-                    <a href="#" class="nav-link text-black">
+                    <a href="#" class="nav-link ">
                         <svg class="bi d-block mx-auto mb-1" width="24" height="28"><use xlink:href="#people-circle"/></svg>
                         CLIENTES
                     </a>
@@ -104,7 +108,7 @@
             <div class="px-3 py-2 border-bottom mb-3">
             <div class="container d-flex flex-wrap justify-content-center">
                 <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
-                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                <input type="search" class="form-control" placeholder="Buscar...." aria-label="Search">
                 </form>
 
                 <div class="text-end">
@@ -114,7 +118,6 @@
             </div>
             </div>
             
-        </header>
         
     
        
@@ -134,7 +137,6 @@
 
                 body {
                     margin: 2rem;
-                    background-color:transparent;
                     background-color: #6dc2f7;
                 }
 
@@ -288,7 +290,7 @@
     <div class="showcase bgShowcase">
         <div class="container bgBlanco">
             <div class="section_header">
-                <h3>Excursiones Turisticas</h3>
+                <h3 class="text-black ">EXCURSIONES TURISTICAS TOURS PERÚ, DESDE PERÚ PARA EL MUNDO!!</h3>
             </div> 
             <!-- Post Row -->
             
@@ -308,10 +310,10 @@
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h3><a class="textDestino" href="huanuco-senorial.php">Hu&aacute;nuco Se&ntilde;orial</a></h3>
+                                    <h3><a class="textDestino" href="huanuco-senorial.php">Huánuco Sensorial</a></h3>
                                     
-                                    <p><span>DESDE:</span> S/. 39.00</p>
-                                    <p><span>Horario de Salida:</span> 09:30am hasta 02:00pm <br/> 02:30pm hasta 07:00pm</p>
+                                    <p><span class="text-black">DESDE:</span> S/. 39.00</p>
+                                    <p><span class="text-black">Horario de Salida:</span><br/>02:30pm hasta 07:00pm</p>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="huanuco-senorial.php">
@@ -328,7 +330,7 @@
                                         <img src="http://www.toursterranova.com/img/destinos/selva-magica/tingo-maria-encantador/tingo-encantador.jpg" alt="Tingo María Encantador" class="img-responsive" />
                                     </a>
                                 </div>
-                                <div class="text">
+                                <div class="text-black">
                                     <h3><a class="textDestino" href="tingo-maria-encantador.php">Tingo Mar&iacute;a Encantador</a></h3>
                                     
                                     <p><span>DESDE:</span> S/. 85.00</p>
@@ -529,7 +531,7 @@
                                 </div>
                                 <div class="text">
                                     <h3><a class="textDestino" href="cuzco-maravilloso.php">Cuzco Maravilloso</a></h3>
-                                    
+
                                     <p><span>DESDE:</span> S/. 00.00</p>
                                     <p><span>Duraci&oacute;n:</span></p>
                                     <p>2 D&iacute;as / 1 Noche</p>
@@ -582,7 +584,7 @@
                 <div class="sign-in-wrapper">
                     <a href="#0" class="social_bt facebook">Iniciar conh Facebook</a>
                     <a href="#0" class="social_bt google">Iniciar con Google</a>
-                    <div class="divider"><span>o</span></div>
+                    <div class="divider"><span></span></div>
                     <div class="form-group">
                         <label>Email</label>
                         <input type="email" class="form-control" name="email" id="email">
