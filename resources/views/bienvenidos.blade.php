@@ -112,7 +112,8 @@
                 </form>
 
                 <div class="text-end">
-                <button type="button" class="btn btn-light text-dark me-2">INICIO</button>
+                    
+                <button type="button"class="btn btn-light text-dark me-2">INICIO</button>
                 <button type="button" class="btn btn-primary">REGISTRARSE</button>
                 </div>
             </div>
@@ -579,7 +580,7 @@
         <footer class="px-3 py-2 bg-primary blog-header-logo text-white">
             <div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
             <div class="small-dialog-header">
-                <h3>REGISTRARSE</h3>
+                <a href="http://register.blade.php"><h3>REGISTRARSE</h3></a>
             </div>
             <form>
                 <div class="sign-in-wrapper">
@@ -605,7 +606,7 @@
                     </div>
                     <div class="text-center"><input type="submit" value="INGRESAR" class="btn_login text-black"></div>
                     <div class="text-center">
-                        No tengo una cuenta, registrarse? <a href="javascript:void(0);">Ingresar</a>
+                        No tengo una cuenta, registrarse? <a href="">Ingresar</a>
                     </div>
                     <div id="forgot_pw">
                         <div class="form-group">
