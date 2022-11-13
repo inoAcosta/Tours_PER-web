@@ -376,7 +376,7 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="huanuco-senorial.php">CARPISH HUÁNUCO</a></h3>
                                     
-                                    <p class="text-black "><span>DESDE:</span> S/. 39.00</p>
+                                    <p class="text-black "><span>DESDE:</span> S/. 50.00</p>
                                     <p class="text-black "><span>Horario de Salida:</span>
                                     </br> 09:30am hasta 02:00pm </p>
                                 </div>
@@ -420,7 +420,7 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="bosque-de-piedra-de-huayllay.php">QUERO POZO <br> PACHITEA-HUÁNUCO</a></h3>
                                     
-                                    <p class="text-black "><span>DESDE:</span> S/. 69.00</p>
+                                    <p class="text-black "><span>DESDE:</span> S/. 90.00</p>
                                     <p class="text-black "><span>Horario de Salida:</span>
                                     <br/> 06:30am hasta 07:30pm</p>
                                 </div>
@@ -477,7 +477,7 @@
                                 <div class="text">
                                     <h3><a class="textDestino" href="sierra-huanuco.php">AQUEOLOGÍA Y AVENTURA HUÁNUCO</a></h3>
                                     
-                                    <p class="text-black "><span>DESDE:</span> S/. 549.00</p>
+                                    <p class="text-black "><span>DESDE:</span> S/. 699.00</p>
                                     <p class="text-black "><span>Hora de Salida:</span><br/> 06:00am</p>
                                     <p class="text-black "><span>Hora de Llegada:</span><br/> 08:00pm</p>
                                 </div>
