@@ -51,7 +51,7 @@
                         
                     </div>
                     <div class="col-4 text-center">
-                        <a class="display-4 fst-italic blog-header-logo" href="#">TOURS PERÚ</a>
+                        <h2><b><a class="display-4 fst-italic blog-header-logo " href="#">TOURS PERÚ</a></h2>
                     </div>
                     <div class="col-4 d-flex justify-content-end align-items-center">
 
@@ -96,9 +96,9 @@
                     </a>
                     </li>
                     <li>
-                    <a href="#" class="nav-link ">
+                    <a href="/reserva" class="nav-link ">
                         <svg class="bi d-block mx-auto mb-1" width="24" height="28"><use xlink:href="#people-circle"/></svg>
-                        CLIENTES
+                        RESERVAS
                     </a>
                     </li>
                 </ul>
@@ -106,22 +106,17 @@
             </div>
             </div>
             <div class="px-3 py-2 border-bottom mb-3">
-            <div class="container d-flex flex-wrap justify-content-center">
-                <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
-                <input type="search" class="form-control" placeholder="Buscar...." aria-label="Search">
-                </form>
+                <div class="container d-flex flex-wrap justify-content-center">
+                    <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto">
+                    <input type="search" class="form-control" placeholder="Buscar...." aria-label="Search">
+                    </form>
 
-                <div class="text-end">
-                    
-                <button type="button"class="btn btn-light text-dark me-2">INICIO</button>
-                <button type="button" class="btn btn-primary">REGISTRARSE</button>
+                    <div class="text-end">
+                        <button type="button"class="btn btn-light text-dark me-2"><a href="/login" class="nav-link">INGRESAR</button></a>
+                        <button type="button" class="btn btn-primary"><a href="/register" class="nav-link">REGISTRARSE</button></a>
+                    </div>
                 </div>
-            </div>
-            </div>
-            
-        
-    
-       
+            </div>    
 
         <style>
                 * {
@@ -285,13 +280,13 @@
                 </div>
             </div>
 
-        </div>
+        </div><br>
 
 
-    <div class="showcase bgShowcase" padding: 200px;>
+        <br><div class="showcase bgShowcase" padding: 200px;>
         <div class="container bgBlanco">
-            <div class="section_header">
-                <h3 class="text-black ">EXCURSIONES TURISTICAS TOURS PERÚ, DESDE PERÚ PARA EL MUNDO!!</h3>
+            <div class="section_header bg-primary">
+            <h3><b><a class="text-black"href="#">VIAJES TURÍSTICOS TOURS PERÚ DESDE HUÁNUCO PARA EL MUNDO</a></h3>
             </div> 
             <!-- Post Row -->
             
@@ -307,13 +302,13 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="huanuco-senorial.php">
-                                        <img src="http://www.toursterranova.com/img/destinos/huanuco-senorial.jpg" alt="huanuco-senorial" class="img-responsive" />
+                                        <img width="330" height="250"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROGSL29t5cCeTOKeW1ekS5VNqJ1VohzuVDbUmdoCcdPvykOBL6Mofy3c9tKXNd4GHqMm8&usqp=CAU" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h3><a class="textDestino" href="huanuco-senorial.php">Huánuco Sensorial</a></h3>
+                                    <h3><a class="textDestino" href="#">HUÁNUCO KOTOSH</a></h3>
                                     
-                                    <p class="text-black "><span>DESDE:</span> S/. 39.00</p>
+                                    <p class="text-black "><span>DESDE:</span> S/. 80.00</p>
                                     <p class="text-black "><span>Horario de Salida:</span><br/>02:30pm hasta 07:00pm</p>
                                 </div>
                                 
@@ -328,11 +323,11 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="tingo-maria-encantador.php">
-                                        <img src="http://www.toursterranova.com/img/destinos/selva-magica/tingo-maria-encantador/tingo-encantador.jpg" alt="Tingo María Encantador" class="img-responsive" />
+                                        <img width="330" height="250" src="https://alfayomegainmobiliaria.website/wp-content/uploads/2022/03/mistica-cueva-de-las-lechuzas.png" alt="Tingo María Encantador" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text-black">
-                                    <h3><a class="textDestino" href="tingo-maria-encantador.php">Tingo Mar&iacute;a Encantador</a></h3>
+                                    <h3><a class="textDestino" href="https://www.tripadvisor.com.pe/Attraction_Review-g4600980-d8844623-Reviews-Cueva_de_Las_Lechuzas-Tingo_Maria_Huanuco_Region.html">CUEVA DE LECHUZAS</a></h3>
                                     
                                     <p class="text-black "><span>DESDE:</span> S/. 85.00</p>
                                     <p class="text-black "><span>Horario de Salida:</span><br/> 06:30am hasta 08:30pm</p>
@@ -349,11 +344,11 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="Huayllay">
-                                        <img src="http://www.toursterranova.com/img/destinos/huayllay/bosque-piedra-huayllay.jpg" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
+                                        <img width= "355" height="250"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiV8vJDmtzjRP12alB1YQiMyiV_VmUzprPdA&usqp=CAU" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h3><a class="textDestino" href="bosque-de-piedra-de-huayllay.php">Bosque de Piedras - Huayllay</a></h3>
+                                    <h3><a class="textDestino" href="bosque-de-piedra-de-huayllay.php">BOSQUE DE PIEDRAS <br> DE HUALLAY</a></h3>
                                     
                                     <p class="text-black "><span>DESDE:</span> S/. 69.00</p>
                                     <p class="text-black "><span>Horario de Salida:</span><br/> 06:30am hasta 07:30pm</p>
@@ -375,11 +370,11 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="huanuco-senorial.php">
-                                        <img src="http://www.toursterranova.com/img/destinos/huanuco-senorial.jpg" alt="huanuco-senorial" class="img-responsive" />
+                                        <img width="330" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrwmnWtsTflFDejupjwRewjn6i0Ts2YIAhQw9lwsKwJZyeV1HoCHmBHCTIm35br7Js9lw&usqp=CAU" alt="huanuco-senorial" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h3><a class="textDestino" href="huanuco-senorial.php">Hu&aacute;nuco Se&ntilde;orial</a></h3>
+                                    <h3><a class="textDestino" href="huanuco-senorial.php">CARPISH HUÁNUCO</a></h3>
                                     
                                     <p class="text-black "><span>DESDE:</span> S/. 39.00</p>
                                     <p class="text-black "><span>Horario de Salida:</span>
@@ -397,11 +392,11 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="tingo-maria-encantador.php">
-                                        <img src="http://www.toursterranova.com/img/destinos/selva-magica/tingo-maria-encantador/tingo-encantador.jpg" alt="Tingo María Encantador" class="img-responsive" />
+                                        <img width="330" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnvCS_DD9smOa2LJAWFBAfjG7FvE2MYEc-JlG3JQhQsdHT9-vexZCb0VIocuRWeMmOBj0&usqp=CAU" alt="Tingo María Encantador" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h3><a class="textDestino" href="tingo-maria-encantador.php">Tingo Mar&iacute;a Encantador</a></h3>
+                                    <h3><a class="textDestino" href="tingo-maria-encantador.php">PICHQA COCHA AMBO</a></h3>
                                     
                                     <p class="text-black "><span>DESDE:</span> S/. 85.00</p>
                                     <p class="text-black "><span>Horario de Salida:</span>
@@ -419,11 +414,11 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="Huayllay">
-                                        <img src="http://www.toursterranova.com/img/destinos/huayllay/bosque-piedra-huayllay.jpg" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
+                                        <img width= "355" height="250"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeUO9vK5v1JLWyPNV1aDVeCjSLYzxT0jY7kAmkCXVQqSkfQ8Y8ESpw5uE89inWpZvvWMA&usqp=CAU" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h3><a class="textDestino" href="bosque-de-piedra-de-huayllay.php">Bosque de Piedras - Huayllay</a></h3>
+                                    <h3><a class="textDestino" href="bosque-de-piedra-de-huayllay.php">QUERO POZO <br> PACHITEA-HUÁNUCO</a></h3>
                                     
                                     <p class="text-black "><span>DESDE:</span> S/. 69.00</p>
                                     <p class="text-black "><span>Horario de Salida:</span>
@@ -443,18 +438,18 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="tours-quivilla.php">
-                                        <img width="300" height="300"  src="http://www.toursterranova.com/img/destinos/quivilla/quivilla8.jpg" alt="huanuco-senorial" class="img-responsive" />
+                                        <img width="330" height="250"src="http://www.toursterranova.com/img/destinos/quivilla/quivilla8.jpg" alt="huanuco-senorial" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h3><a class="textDestino" href="tours_quivilla.php">Tours de Aventura Quivilla</a></h3>
+                                    <h3><a class="textDestino" href="tours_quivilla.php">TOURS DE AVENTURA QUEVILLA</a></h3>
                                     
                                     <p class="text-black "><span>DESDE:</span> S/. 549.00</p>
                                     <p class="text-black "><span>Hora de Salida:</span><br/> 06:00am</p>
                                     <p class="text-black "><span>Hora de Llegada:</span><br/> 08:00pm</p>
                                 </div>
                                 
-                                <a class="plus_wrapper" href="huanuco-senorial.php">
+                                <a class="plus_wrapper" href="#">
                                     <span>&#43;</span>
                                 </a>
                             </div>
@@ -476,11 +471,11 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="sierra-huanuco.php">
-                                        <img width="300" height="300" src="http://www.toursterranova.com/img/destinos/sierra-huanuco/tantamayo.jpg" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
+                                        <img width= "355" height="250"src="http://www.toursterranova.com/img/destinos/sierra-huanuco/tantamayo.jpg" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h3><a class="textDestino" href="sierra-huanuco.php">Huánuco Arqueología y Aventura</a></h3>
+                                    <h3><a class="textDestino" href="sierra-huanuco.php">AQUEOLOGÍA Y AVENTURA HUÁNUCO</a></h3>
                                     
                                     <p class="text-black "><span>DESDE:</span> S/. 549.00</p>
                                     <p class="text-black "><span>Hora de Salida:</span><br/> 06:00am</p>
@@ -496,8 +491,8 @@
               
               
                     </div>
-        			<div class="section_header">
-                        <h3>Paquetes Destacados</h3>
+        			<div class="section_header bg-primary ">
+                        <h3><b><a class="text-black" href="#">PAQUETES ESPECIALES DESTACADOS</a></h3>
                     </div> 
                     <!-- Post Row -->
                     <div class="row post_row">
@@ -506,13 +501,13 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="playas-de-ensueno.php">
-                                        <img src="http://www.toursterranova.com/img/destinos/playas-de-ensueno.jpg" alt="playas-de-ensueño" class="img-responsive" />
+                                        <img width="330" height="250"src="http://www.toursterranova.com/img/destinos/playas-de-ensueno.jpg" alt="playas-de-ensueño" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h3><a class="textDestino" href="playas-de-ensueno.php">Playas de Ensue&ntildeo</a></h3>
+                                    <h3><a class="textDestino" href="playas-de-ensueno.php">PLAYAS DE ENSUEÑO-COSTA</a></h3>
                                     
-                                    <p class="text-black "><span>DESDE:</span> S/. 00.00</p>
+                                    <p class="text-black "><span>DESDE:</span> S/. 3000.00</p>
                                     <p class="text-black "><span>Duraci&oacute;n:</span></p>
                                     <p class="text-black ">4 D&iacute;as / 3 Noches</p>
                                 </div>
@@ -528,15 +523,16 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="cuzco-maravilloso.php">
-                                        <img src="http://www.toursterranova.com/img/destinos/cusco-magico.jpg" alt="cusco mágico" class="img-responsive" />
+                                        <img width="330" height="250"src="http://www.toursterranova.com/img/destinos/cusco-magico.jpg" alt="cusco mágico" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h3><a class="textDestino" href="cuzco-maravilloso.php">Cuzco Maravilloso</a></h3>
-
-                                    <p class="text-black "><span>DESDE:</span> S/. 00.00</p>
+                                    <h3><a class="textDestino" href="cuzco-maravilloso.php">MACHU PICCHU <br> CUSCO PERÚ</a></h3>
+                                    <p class="text-black "><span>DESDE:</span> S/. 3000.00</p>
                                     <p class="text-black "><span>Duraci&oacute;n:</span></p>
-                                    <p class="text-black ">2 D&iacute;as / 1 Noche</p>
+                                    <p class="text-black ">4 D&iacute;as / 3 Noches</p>
+
+                                    
                                 </div>
                                 
                                 <a class="plus_wrapper" href="cuzco-maravilloso.php">
@@ -550,15 +546,18 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="de-la-selva-central-su-magia.php">
-                                        <img src="http://www.toursterranova.com/img/destinos/selva-central.jpg" alt="selva-central" class="img-responsive" />
+                                        <img width= "355" height="250"src="http://www.toursterranova.com/img/destinos/selva-central.jpg" alt="selva-central" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h3><a class="textDestino" href="de-la-selva-central-su-magia.php">De la Selva Central su Magia</a></h3>
+                                    <h3><a class="textDestino" href="de-la-selva-central-su-magia.php">MAGIA DEL SELVA CENTRAL DEL PERÚ</a></h3>
+                                        <h6><b><a class="text-primary">DESDE:</h6>
+                                            <h6><i><span class="text-dark">S/.3000.00 hasta S/4000.00</span> </a></i></h6>
+                                        <h6><b><a class="text-primary">DURACION:</h6>
+                                            <h6><i><span class="text-dark">3 DIAS Y 2 NOCHES</span> </a></i></h6>
+                                        <h6><b><a class="text-primary">INCLUYE:</h6>
+                                            <h6><i><span class="text-dark">COMIDAS, PASEO EN BOTES, FOTOGRAFIA Y BEBIDAS</span></a></h6>
                                     
-                                    <p class="text-black "><span>DESDE:</span> S/. 00.00</p>
-                                    <p class="text-black "><span>Duraci&oacute;n:</span></p>
-                                    <p class="text-black ">5 D&iacute;as / 4 Noches</p>
                                 </div>
                                 
                                 <a class="plus_wrapper" href="de-la-selva-central-su-magia.php">
@@ -580,44 +579,39 @@
         <footer class="px-3 py-2 bg-primary blog-header-logo text-white">
             <div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
             <div class="small-dialog-header">
-                <a href="http://register.blade.php"><h3>REGISTRARSE</h3></a>
+                <h3><b><a class="text-black">RESERVA TUS VIAJES</a></h3>
             </div>
             <form>
                 <div class="sign-in-wrapper">
-                    <a href="#0" class="social_bt facebook">Iniciar conh Facebook</a>
+                    <a href="#0" class="social_bt facebook">Iniciar conh Facebook /</a>
                     <a href="#0" class="social_bt google">Iniciar con Google</a>
                     <div class="divider"><span></span></div>
                     <div class="form-group">
-                        <label>Email</label>
+                        <label><h6><b><a class="text-black">EMAIL</a></h6></label>
                         <input type="email" class="form-control" name="email" id="email">
                         <i class="icon_mail_alt"></i>
                     </div>
                     <div class="form-group">
-                        <label>Password</label>
+                        <label><h6><b><a class="text-black">PASSWORD</a></h6></label>
                         <input type="password" class="form-control" name="password" id="password" value="">
                         <i class="icon_lock_alt"></i>
                     </div>
                     <div class="clearfix add_bottom_15">
                         <div class="checkboxes float-left">
                             <input id="remember-me" type="checkbox" name="check">
-                            <label for="remember-me">Recordar</label>
+                            <label for="remember-me"><h6><b><a class="text-black">RECORDAR</a></h6></label>
                         </div>
                         <div class="float-right"><a id="forgot" href="javascript:void(0);">Olvide mi contraseña?</a></div>
                     </div>
-                    <div class="text-center"><input type="submit" value="INGRESAR" class="btn_login text-black"></div>
                     <div class="text-center">
-                        No tengo una cuenta, registrarse? <a href="">Ingresar</a>
+                        <button type="button" class="btn btn-dark text-dark me-2"><a href="/register" class="nav-link text-white">INGRESAR</button></a>
                     </div>
-                    <div id="forgot_pw">
-                        <div class="form-group">
-                            <label>Por favor confirme su direccion de Email</label>
-                            <input type="email" class="form-control" name="email_forgot" id="email_forgot">
-                            <i class="icon_mail_alt"></i>
-                        </div>
-                        <p>Ingresa en tu correo y realiza la confirmación</p>
-                        <div class="text-center"><input type="submit" value="REINICIAR CONTRASEÑA" class="btn_1 text-black"></div>
+                    <div class="text-center">
+                        <br><h6><b><a class="text-black">No tengo una cuenta, registrarse?</a></h6>
+                        <button type="button" class="btn btn-dark text-dark me-2"><a href="/register" class="nav-link text-white">REGISTRARSE</button></a>
                     </div>
-                </div>
+
+                </div><br>
             </form>
             <!--form -->
 
@@ -675,15 +669,15 @@
 
         </footer>
         </div><!-- End row -->
-            <div class="row">
+            <br><div class="row">
                 <div class="col-md-12">
                     <div id="social_footer">
                         
                         <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-                            <li><a href="" target="_blank">  <img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png"></a></li>
-                            <li><a href="" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"></a></li>
-                            <li><a href="" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/733/733579.png"></a></li>
-                            <li><a href="" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/128/3670/3670147.png"></a></li>
+                            <li><a href="" target="_blank"><img width="40px" height="60px" src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png"></a></li>
+                            <li><a href="" target="_blank"><img width="40px" height="60px" src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"></a></li>
+                            <li><a href="" target="_blank"><img width="40px" height="60px" src="https://cdn-icons-png.flaticon.com/128/733/733579.png"></a></li>
+                            <li><a href="" target="_blank"><img width="40px" height="60px" src="https://cdn-icons-png.flaticon.com/128/3670/3670147.png"></a></li>
                         </ul>
                         <p>©Tours PERÚ 2023</p>
                     </div>

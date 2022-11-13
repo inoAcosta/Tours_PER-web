@@ -19,9 +19,10 @@ Route::get('/', function () {
 Route::get('/bienvenidos', function () {
     return view('bienvenidos');
 });
-Route::get('/login', function () {
-    return view('login');
+Route::get('/reserva', function () {
+    return view('reserva');
 });
+
 
 Auth::routes();
 
