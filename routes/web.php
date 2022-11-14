@@ -16,11 +16,23 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/bienvenidos', function () {
-    return view('bienvenidos');
+Route::get('/principal', function () {
+    return view('principal');
 });
 Route::get('/reserva', function () {
     return view('reserva');
+});
+Route::get('/viajes', function () {
+    return view('viajes');
+});
+Route::get('/clientes', function () {
+    return view('clientes');
+});
+Route::get('/sitios', function () {
+    return view('sitios');
+});
+Route::get('/costos', function () {
+    return view('costos');
 });
 
 
