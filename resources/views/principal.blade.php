@@ -501,7 +501,72 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="playas-de-ensueno.php">
-                                        <img width="330" height="250"src="http://www.toursterranova.com/img/destinos/playas-de-ensueno.jpg" alt="playas-de-ensueño" class="img-responsive" />
+                                        <img width="330" height="250"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMjwCbIpKdSt5eYCw1q52HDDwT_fTQXahniSRi1s4znwYmx2xauBINSIavuCZb_Ds-e4c&usqp=CAU" alt="playas-de-ensueño" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h3><a class="textDestino" href="playas-de-ensueno.php">PLAYAS DE CALI</a></h3>
+                                    
+                                    <p class="text-black "><span>DESDE:</span> S/. 3000.00</p>
+                                    <p class="text-black "><span>Duraci&oacute;n:</span></p>
+                                    <p class="text-black ">4 D&iacute;as / 3 Noches</p>
+                                </div>
+                                
+                                <a class="plus_wrapper" href="playas-de-ensueno.php">
+                                    <span>&#43;</span>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <!-- Post -->
+                        <div class="col-sm-4">
+                            <div class="post">
+                                <div class="img">
+                                    <a href="cuzco-maravilloso.php">
+                                        <img width="330" height="250"src="https://upload.wikimedia.org/wikipedia/commons/d/da/Valley_of_Colca_River%2C_Peru.jpg" alt="cusco mágico" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h3><a class="textDestino" href="cuzco-maravilloso.php">VALLE DE COLCA <br> CUSCO PERÚ</a></h3>
+                                    <p class="text-black "><span>DESDE:</span> S/. 3000.00</p>
+                                    <p class="text-black "><span>Duraci&oacute;n:</span></p>
+                                    <p class="text-black ">4 D&iacute;as / 3 Noches</p>
+
+                                    
+                                </div>
+                                
+                                <a class="plus_wrapper" href="cuzco-maravilloso.php">
+                                    <span>&#43;</span>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <!-- Post -->
+                        <div class="col-sm-4">
+                            <div class="post">
+                                <div class="img">
+                                    <a href="de-la-selva-central-su-magia.php">
+                                        <img width= "355" height="250"src="https://miviajeporperu.com/wp-content/uploads/2021/08/huacachina-ica.jpg" alt="selva-central" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <h3><a class="textDestino" href="de-la-selva-central-su-magia.php">HUACACHINA ICA</a></h3>
+                                    <p class="text-black "><span>DESDE:</span> S/. 3000.00</p>
+                                    <p class="text-black "><span>Duraci&oacute;n:</span></p>
+                                    <p class="text-black ">4 D&iacute;as / 3 Noches</p>
+                                    
+                                </div>
+                                
+                                <a class="plus_wrapper" href="de-la-selva-central-su-magia.php">
+                                    <span>&#43;</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="post">
+                                <div class="img">
+                                    <a href="playas-de-ensueno.php">
+                                        <img width="330" height="250"src="https://viajes.nationalgeographic.com.es/medio/2013/07/19/hemis_0603999_1000x677.jpg" alt="playas-de-ensueño" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
@@ -523,7 +588,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="cuzco-maravilloso.php">
-                                        <img width="330" height="250"src="http://www.toursterranova.com/img/destinos/cusco-magico.jpg" alt="cusco mágico" class="img-responsive" />
+                                        <img width="330" height="250"src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Machu_Picchu%2C_Peru_%282018%29.jpg" alt="cusco mágico" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
@@ -546,7 +611,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="de-la-selva-central-su-magia.php">
-                                        <img width= "355" height="250"src="http://www.toursterranova.com/img/destinos/selva-central.jpg" alt="selva-central" class="img-responsive" />
+                                        <img width= "355" height="250"src="https://www.paquetesturisticosperu.com/paquetes-turisticos-selva-central/img/selva-central1.jpg" alt="selva-central" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
@@ -564,7 +629,7 @@
                                     <span>&#43;</span>
                                 </a>
                             </div>
-                        </div>
+                        
                     </div>
                     
                     

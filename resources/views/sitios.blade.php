@@ -54,7 +54,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="huanuco-senorial.php">
-                                        <img width="330" height="250"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROGSL29t5cCeTOKeW1ekS5VNqJ1VohzuVDbUmdoCcdPvykOBL6Mofy3c9tKXNd4GHqMm8&usqp=CAU" />
+                                        <img width="330" height="250"src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Templo_Blanco_de_Kotosh_amb_l%27edifici_del_Templo_de_las_Manos_darrera03.jpg" />
                                     </a>
                                 </div>
                                 <div class="text">
@@ -75,7 +75,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="tingo-maria-encantador.php">
-                                        <img width="330" height="250" src="https://alfayomegainmobiliaria.website/wp-content/uploads/2022/03/mistica-cueva-de-las-lechuzas.png" alt="Tingo María Encantador" class="img-responsive" />
+                                        <img width="330" height="250" src="https://elcomercio.pe/resizer/DRjYbJU2zgJ9d36Y7eQDFSKGDp0=/1200x1200/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/4MH52XMO4ZACZEWAWVYNQ364NA.jpg" alt="Tingo María Encantador" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text-black">
@@ -96,7 +96,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="Huayllay">
-                                        <img width= "355" height="250"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiV8vJDmtzjRP12alB1YQiMyiV_VmUzprPdA&usqp=CAU" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
+                                        <img width= "355" height="250"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqpzPqLZ8yzTYPL0QKhWbTWg6eYSuzEDYYC8qSXSWvNhNHQnPxIT89XxHiSsYnBqege4w&usqp=CAU" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
@@ -122,7 +122,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="huanuco-senorial.php">
-                                        <img width="330" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrwmnWtsTflFDejupjwRewjn6i0Ts2YIAhQw9lwsKwJZyeV1HoCHmBHCTIm35br7Js9lw&usqp=CAU" alt="huanuco-senorial" class="img-responsive" />
+                                        <img width="330" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsUsW3GPbUZqLJNLrhD7OD4uj9F48lGBe05NUEI-GjrrdDJae3hnlLHyA4Gl_flxAN1Ew&usqp=CAU" alt="huanuco-senorial" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
@@ -144,7 +144,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="tingo-maria-encantador.php">
-                                        <img width="330" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnvCS_DD9smOa2LJAWFBAfjG7FvE2MYEc-JlG3JQhQsdHT9-vexZCb0VIocuRWeMmOBj0&usqp=CAU" alt="Tingo María Encantador" class="img-responsive" />
+                                        <img width="330" height="250" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEpdvFiyuFfw9NQCohD58l5JpPmzYnMhuuvvXNqm8Jyy-qKnwNlyIM9pKbj4jccDFVNBk&usqp=CAU" alt="Tingo María Encantador" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
@@ -166,7 +166,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="Huayllay">
-                                        <img width= "355" height="250"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeUO9vK5v1JLWyPNV1aDVeCjSLYzxT0jY7kAmkCXVQqSkfQ8Y8ESpw5uE89inWpZvvWMA&usqp=CAU" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
+                                        <img width= "355" height="250"src="https://diariocorreo.pe/resizer/mBKehKCofB3UVO9f-Shxjima4Hk=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/KK26TGSEVFFWRCOMPA57FMGKFI.jpg" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
@@ -190,7 +190,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="tours-quivilla.php">
-                                        <img width="330" height="250"src="http://www.toursterranova.com/img/destinos/quivilla/quivilla8.jpg" alt="huanuco-senorial" class="img-responsive" />
+                                        <img width="330" height="250"src="https://cdn2.civitatis.com/peru/huanuco/galeria/tantamayo-piruro.jpg" alt="huanuco-senorial" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
@@ -223,7 +223,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="sierra-huanuco.php">
-                                        <img width= "355" height="250"src="http://www.toursterranova.com/img/destinos/sierra-huanuco/tantamayo.jpg" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
+                                        <img width= "355" height="250"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR01gDgqLSivsg8CrCYHAWO9U9ZQLwXsrHYzA&usqp=CAU" alt="Bosuqe de Piedra - Huayllay" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
@@ -253,7 +253,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="playas-de-ensueno.php">
-                                        <img width="330" height="250"src="http://www.toursterranova.com/img/destinos/playas-de-ensueno.jpg" alt="playas-de-ensueño" class="img-responsive" />
+                                        <img width="330" height="250"src="https://viajes.nationalgeographic.com.es/medio/2013/07/19/hemis_0603999_1000x677.jpg" alt="playas-de-ensueño" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
@@ -275,7 +275,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="cuzco-maravilloso.php">
-                                        <img width="330" height="250"src="http://www.toursterranova.com/img/destinos/cusco-magico.jpg" alt="cusco mágico" class="img-responsive" />
+                                        <img width="330" height="250"src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Machu_Picchu%2C_Peru_%282018%29.jpg" alt="cusco mágico" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
@@ -298,7 +298,7 @@
                             <div class="post">
                                 <div class="img">
                                     <a href="de-la-selva-central-su-magia.php">
-                                        <img width= "355" height="250"src="http://www.toursterranova.com/img/destinos/selva-central.jpg" alt="selva-central" class="img-responsive" />
+                                        <img width= "355" height="250"src="https://www.paquetesturisticosperu.com/paquetes-turisticos-selva-central/img/selva-central1.jpg" alt="selva-central" class="img-responsive" />
                                     </a>
                                 </div>
                                 <div class="text">
