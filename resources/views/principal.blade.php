@@ -527,7 +527,7 @@
                                     </a>
                                 </div>
                                 <div class="text">
-                                    <h3><a class="textDestino" href="cuzco-maravilloso.php">VALLE DE COLCA <br> CUSCO PERÚ</a></h3>
+                                    <h3><a class="textDestino" href="cuzco-maravilloso.php">VALLE DE COLCA <br> AREQUIPA PERÚ</a></h3>
                                     <p class="text-black "><span>DESDE:</span> S/. 3000.00</p>
                                     <p class="text-black "><span>Duraci&oacute;n:</span></p>
                                     <p class="text-black ">4 D&iacute;as / 3 Noches</p>
