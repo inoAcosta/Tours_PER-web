@@ -39,6 +39,14 @@
             
             </style>
     <body>
+        <nav class="container-fluid text-center bg-dark pt-5 pb-5">
+          <div class="container">
+                    <a class="navbar-brand" href="{{ url('/') }}">
+                        <strong class="text-primary">BIENVENIDOS</strong>
+                    </a>
+                </div>
+
+            </nav>
 
             <nav class="navbar navbar-expand-md navbar-dark container-fluid text-center bg-primary pt-5 pb-5">
                 <div class="container">
@@ -109,10 +117,22 @@
         </style>
         <style>
         .bg-primary{
-            background: #340166 !important;
+            background: #17E6BD !important;
             border-radius: 10px;
             width: 600px;
             height: 80px;
+
+        }
+        </style>
+        <style>
+        .bg-dark{
+            background: #5E6060 !important;
+            border-radius: 10px;
+            width: 600px;
+            height: 80px;
+            font-size: 30px;
+            padding: 60px 40px 80px 40px;
+
 
         }
         </style>
